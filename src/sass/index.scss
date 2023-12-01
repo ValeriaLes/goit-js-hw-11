@@ -1,2 +1,44 @@
 @import './common';
 
+.gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.info{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.photo-card {
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+   
+
+}
+
+
+
+.container {
+    padding: 20px;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+// .card-image {
+//     object-fit: fill;
+// }
